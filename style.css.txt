@@ -1,0 +1,23 @@
+<style>
+.pagination-links button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #0073aa;
+  color: white;
+  cursor: pointer;
+}
+
+.pagination-links button:hover {
+  background-color: #005885;
+}
+
+.pagination-links button:focus {
+  background-color: #003f63;
+  outline: none;
+}
+
+.pagination-content {
+  margin-bottom: 20px;
+}
+</style>
