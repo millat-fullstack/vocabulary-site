@@ -9,11 +9,27 @@
 <body>
   <h1>Welcome to Learn Korean Vocabulary</h1>
   <div class="pagination-content">
-    <div id="page1" class="vocabulary-page">
-      <p>놀다 (খেলা করা, আড্ডা দেয়া)</p>
-      <p>눕다 (শোয়ন করা, শোয়া)</p>
-    </div>
+  <div id="page1" class="vocabulary-page">
+    <p>놀다 (খেলা করা, আড্ডা দেয়া)</p>
+    <p>눕다 (শোয়ন করা, শোয়া)</p>
   </div>
+  
+  <div id="page2" class="vocabulary-page" style="display: none;">
+    <p>가다 (যাওয়া)</p>
+    <p>오다 (আসা)</p>
+  </div>
+
+  <div id="page3" class="vocabulary-page" style="display: none;">
+    <p>하다 (করা)</p>
+    <p>좋아하다 (পছন্দ করা)</p>
+  </div>
+</div>
+
+<div class="pagination-links">
+  <button onclick="showPage(1)">1</button>
+  <button onclick="showPage(2)">2</button>
+  <button onclick="showPage(3)">3</button>
+</div>
   <script src="script.js"></script>
 </body>
 </html>
